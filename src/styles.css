@@ -1,0 +1,40 @@
+.container {
+  background-color: hsl(217, 19%, 24%);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 20px;
+  height: 100vw;
+}
+
+.App, h2 {
+  font-family: "Manrope", sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+h2 {
+  color: hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 1440px) {
+  .App {
+    max-width: 1440px;
+  }
+  .card-img2 {
+    background-image: url("/images/pattern-divider-desktop.svg");
+  }
+  .card {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .card-img2 {
+    background-image: url("/images/pattern-divider-mobile.svg");
+  }
+  .card {
+    max-width: 370px;
+  }
+}
+

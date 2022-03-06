@@ -1,0 +1,25 @@
+.button {
+  position: flex;
+  flex-direction: column;
+  background-color: hsl(150, 100%, 66%);
+  height: 80px;
+  width: 80px;
+  border-radius: 100%;
+  margin: -40px auto auto auto;
+  z-index: 3;
+  border: none;
+  box-shadow: none;
+}
+
+.dice {
+  position: flex;
+  flex-direction: column;
+  margin: 23px auto;
+  height: 33px;
+  width: 33px;
+}
+
+.button:hover {
+  box-shadow: 1px 1px 5px 5px hsl(150, 100%, 66%);
+  cursor: pointer;
+}
